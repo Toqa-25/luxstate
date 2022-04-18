@@ -1,0 +1,99 @@
+/* veriables */
+:root{
+    --main-color:#ffcc01;
+}
+
+/* global rules */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ /* file style */
+
+ .navbar-light .navbar-nav .nav-link,
+ .last-nav  .nav-item .nav-link {
+    color: black;
+    font-weight: 400;
+    font-size: .9rem;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.last-nav   .focuse{
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+.header-text svg{
+    margin:auto 5px;
+}
+.header-text input{
+    border: none
+}
+.header-text button{
+    background: var(--main-color);
+    font-size: .75rem;
+    width: 45%;
+}
+.header-text .d-flex{
+     
+} 
+.header-text h1{
+    font-family: mate sc;
+}
+@media (min-width:768px){
+.header-text {
+    margin: auto;
+    transform: translate(50%);
+}
+
+}
+    @media (max-width:767px) {
+        .sm-center{
+            margin: auto;
+            transform: translate(0%,-240%);
+            -webkit-transform: translate(0%,-240%);
+            -moz-transform: translate(0%,-240%);
+            -ms-transform: translate(0%,-240%);
+            -o-transform: translate(0%,-240%);
+}
+/* .but-center{
+    transform: translate(-100%);
+    -webkit-transform: translate(-100%);
+    -moz-transform: translate(-100%);
+    -ms-transform: translate(-100%);
+    -o-transform: translate(-100%);
+} */
+        }
+    
+
+header .row{
+    position: relative;
+}
+header .image-section{
+  position: relative;
+}
+.text-over{
+    background: var(--main-color);
+    padding: 20px 50px;
+    position: absolute;
+    right: 12px;
+    bottom: 0px;
+    align-items: center;
+}
+.mr-2{
+    margin-right:.5rem;
+}
+.down-svg{
+    align-items: center;
+}
+.down-svg h6{
+    margin: auto;
+}
+.mr-1{
+    margin-right:1.25rem;
+}
+.section{
+    pad
+}

@@ -1,0 +1,17 @@
+/* veriables */
+:root{
+    --main-color:#ffcc01;
+}
+
+/* global rules */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ /* file style */
+
+ .navbar-light .navbar-nav .nav-link,
+ .last-nav  .nav-item .nav-link {
+    color: black;
+    font-weight: 400;
+}
+.nav-brand

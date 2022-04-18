@@ -1,0 +1,41 @@
+/* veriables */
+:root{
+    --main-color:#ffcc01;
+}
+
+/* global rules */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ /* file style */
+
+ .navbar-light .navbar-nav .nav-link,
+ .last-nav  .nav-item .nav-link {
+    color: black;
+    font-weight: 400;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.last-nav   .focuse{
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+.header-text svg{
+    margin:auto 5px;
+}
+.header-text input{
+    border: none
+}
+.header-text button{
+    background: var(--main-color);
+}
+.header-text .d-flex{
+    border: 2px solid #eee;
+} 
+.header-text{
+    margin: auto;
+}
+/* header .row{
+    position: relative;
+} */
